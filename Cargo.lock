@@ -376,9 +376,6 @@ dependencies = [
  "astroport-factory",
  "astroport-native-coin-registry",
  "astroport-token",
- "astroport-whitelist",
- "basset 0.1.0 (git+https://github.com/Anchor-Protocol/anchor-bAsset-contracts.git?tag=v0.2.1)",
- "cosmwasm-bignumber",
  "cosmwasm-schema",
  "cosmwasm-std",
  "cw-multi-test",
@@ -426,40 +423,6 @@ dependencies = [
  "cw2 0.15.1",
  "cw20 0.15.1",
  "protobuf",
- "thiserror",
-]
-
-[[package]]
-name = "astroport-stluna-bluna-lido-converter"
-version = "1.0.0"
-dependencies = [
- "astroport 2.0.0",
- "basset 0.1.0 (git+https://github.com/lidofinance/lido-terra-contracts)",
- "cosmwasm-bignumber",
- "cosmwasm-schema",
- "cosmwasm-std",
- "cosmwasm-storage",
- "cw-storage-plus 0.8.1",
- "cw20",
- "schemars",
- "serde",
- "thiserror",
-]
-
-[[package]]
-name = "astroport-stluna-bluna-lido-converter"
-version = "1.0.0"
-dependencies = [
- "astroport 2.0.0",
- "basset 0.1.0 (git+https://github.com/lidofinance/lido-terra-contracts)",
- "cosmwasm-bignumber",
- "cosmwasm-schema",
- "cosmwasm-std",
- "cosmwasm-storage",
- "cw-storage-plus 0.8.1",
- "cw20",
- "schemars",
- "serde",
  "thiserror",
 ]
 
@@ -542,34 +505,6 @@ name = "base64ct"
 version = "1.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8c3c1a368f70d6cf7302d78f8f7093da241fb8e8807c05cc9e51a125895a6d5b"
-
-[[package]]
-name = "basset"
-version = "0.1.0"
-source = "git+https://github.com/Anchor-Protocol/anchor-bAsset-contracts.git?tag=v0.2.1#486f1cd495325798f884e19880180a62566b5e48"
-dependencies = [
- "cosmwasm-std",
- "cosmwasm-storage",
- "cw20",
- "schemars",
- "serde",
- "terra-cosmwasm",
- "thiserror",
-]
-
-[[package]]
-name = "basset"
-version = "0.1.0"
-source = "git+https://github.com/lidofinance/lido-terra-contracts#3a3b8cbf21c286c8f8b00a2eef92e23a4dfa169b"
-dependencies = [
- "cosmwasm-std",
- "cosmwasm-storage",
- "cw20",
- "schemars",
- "serde",
- "terra-cosmwasm",
- "thiserror",
-]
 
 [[package]]
 name = "bigint"
