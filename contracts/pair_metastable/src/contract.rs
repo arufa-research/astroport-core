@@ -23,7 +23,7 @@ use astroport::pair::{
     CumulativePricesResponse, Cw20HookMsg, ExecuteMsg, MigrateMsg, PoolResponse, QueryMsg,
     ReverseSimulationResponse, SimulationResponse, TWAP_PRECISION,
 };
-use astroport::pair_lido::{
+use astroport::pair_metastable::{
     ConfigResponse, LidoPoolParams, DEFAULT_SLIPPAGE, MAX_ALLOWED_SLIPPAGE,
 };
 use astroport::querier::query_fee_info;
@@ -35,7 +35,7 @@ use std::vec;
 const SWAP_REPLY_ID: u64 = 1;
 
 /// Contract name that is used for migration.
-const CONTRACT_NAME: &str = "astroport-pair-lido";
+const CONTRACT_NAME: &str = "astroport-pair-metastable";
 /// Contract version that is used for migration.
 const CONTRACT_VERSION: &str = env!("CARGO_PKG_VERSION");
 

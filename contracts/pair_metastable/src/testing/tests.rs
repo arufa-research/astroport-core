@@ -15,7 +15,7 @@ use astroport::factory::PairType;
 use astroport::pair::ExecuteMsg::Receive;
 use astroport::pair::InstantiateMsg;
 use astroport::pair::TWAP_PRECISION;
-use astroport::pair_lido::LidoPoolParams;
+use astroport::pair_metastable::LidoPoolParams;
 use cosmwasm_std::testing::{mock_env, mock_info};
 use cosmwasm_std::{
     to_binary, Addr, Api, BlockInfo, CosmosMsg, Env, OwnedDeps, Querier, Storage, Timestamp,
