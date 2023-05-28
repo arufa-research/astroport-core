@@ -7,6 +7,7 @@ members = [
     "contracts/pair_stable",
     "contracts/pair_concentrated",
     "contracts/pair_astro_xastro",
+    "contracts/pair_metastable",
     "contracts/router",
     "contracts/token",
     "contracts/whitelist",

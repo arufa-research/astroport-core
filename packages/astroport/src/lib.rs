@@ -9,6 +9,7 @@ pub mod native_coin_registry;
 pub mod native_coin_wrapper;
 pub mod oracle;
 pub mod pair;
+pub mod pair_metastable;
 pub mod pair_bonded;
 pub mod pair_concentrated;
 pub mod querier;
